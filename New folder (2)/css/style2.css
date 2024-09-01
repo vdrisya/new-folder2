@@ -1,0 +1,87 @@
+body{
+    /* background-image: url("New folder/img/pexels-pixabay-56866.jpg"); */
+    background-size: cover;
+}
+#h2{
+    width: 50%;
+    height: auto;
+}
+.grp1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border: 2px solid blue;
+position: relative;
+}
+.circle{
+font-style: italic;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin:  5% 30% 5% 40%;
+}
+.highlight-row {
+    border-bottom: 2px solid red;
+    color: black; 
+}
+.cp{
+    border-right: 2px solid black;
+    padding: 7px 10px 7px 10px;
+}
+.l1 p{
+    position: sticky;
+    bottom: 0px;
+    left: 5px;
+    color: aliceblue; 
+    border: 3px solid red;
+    margin: 5% 20% 5% 20%;  
+}
+.l1{
+    position: relative;
+    left: 50px;
+
+}
+.parent{
+    border: 2px solid chocolate;
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* align-content: space-evenly; */
+}
+.child{
+    border: 2px solid blueviolet;
+    /* width: 5%; */
+    /* margin-right: 30px; */
+}
+header{
+    background-color: rgb(197, 142, 142);
+    height: 60px;
+   
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+    
+}
+@media screen and (max-width:460px) {
+     header nav{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    header{
+        background-color: brown;
+    }
+}
+@media screen and (max-width:460px) {
+    header nav{
+       color: azure;
+       align-items: center;
+   }
+   header{
+       background-color: brown;
+       height: auto;
+   }
+}
